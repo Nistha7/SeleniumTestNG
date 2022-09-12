@@ -44,7 +44,7 @@ public class Assignment {
 		js.executeScript("arguments[0].scrollIntoView();",category);
 		Thread.sleep(1000);
 		
-		driver.findElement(By.xpath("//*[@id=\"s-refinements\"]/div[21]/ul/li[4]/span/a/div")).click();
+		driver.findElement(By.xpath("//*[@id=\"s-refinements\"]/div[21]/ul/li[5]/span/a/div")).click();
 		Thread.sleep(1000);
 		
 		driver.findElement(By.xpath("//*[@id=\"a-autoid-0-announce\"]/span[2]")).click(); 
