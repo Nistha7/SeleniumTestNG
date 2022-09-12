@@ -63,14 +63,14 @@ public class Assignment {
 		
 		WebElement about=driver.findElement(By.id("feature-bullets"));
 		js.executeScript("arguments[0].scrollIntoView();",about);
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		
 		Assert.assertEquals(true, about.isDisplayed());
 		
 		System.out.println(about.getText());
 		
 	
-		driver.close();
+		driver.quit();
 	}
 
 }
